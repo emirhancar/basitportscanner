@@ -1,41 +1,46 @@
 <div align="center">
-  <img src="https://img.shields.io/github/languages/count/keyvanarasteh/Project?style=flat-square&color=blueviolet" alt="Language Count">
-  <img src="https://img.shields.io/github/languages/top/keyvanarasteh/Project?style=flat-square&color=1e90ff" alt="Top Language">
-  <img src="https://img.shields.io/github/last-commit/keyvanarasteh/Project?style=flat-square&color=ff69b4" alt="Last Commit">
-  <img src="https://img.shields.io/github/license/keyvanarasteh/Project?style=flat-square&color=yellow" alt="License">
+  <img src="https://img.shields.io/github/languages/count/emirhancar/basitportscanner?style=flat-square&color=blueviolet" alt="Language Count">
+  <img src="https://img.shields.io/github/languages/top/emirhancar/basitportscanner?style=flat-square&color=1e90ff" alt="Top Language">
+  <img src="https://img.shields.io/github/last-commit/emirhancar/basitportscanner?style=flat-square&color=ff69b4" alt="Last Commit">
+  <img src="https://img.shields.io/github/license/emirhancar/basitportscanner?style=flat-square&color=yellow" alt="License">
   <img src="https://img.shields.io/badge/Status-Active-green?style=flat-square" alt="Status">
   <img src="https://img.shields.io/badge/Contributions-Welcome-brightgreen?style=flat-square" alt="Contributions">
 </div>
 
-# Project Name
-*Proje Adı*
+simple port scanner
+basit port tarayıcı
 
-A brief, engaging description of your project.  
-*Projenizin kısa ve ilgi çekici bir açıklaması.*
+This project helps you detect potential vulnerabilities in your network by quickly scanning open ports on the target IP address. Developed in Python and Kali Linux environment, this port scanner works efficiently and quickly using multi-threading. It is both a practical application for those who want to learn and an ideal tool for basic security testing.
+
+Bu proje, hedef IP adresindeki açık portları hızlıca tarayarak ağınızdaki potansiyel güvenlik açıklarını tespit etmenize yardımcı olur. Python ve Kali Linux ortamında geliştirilen bu port tarayıcı, çoklu iş parçacığı kullanarak verimli ve hızlı çalışır. Hem öğrenmek isteyenler için pratik bir uygulama hem de temel güvenlik testleri için ideal bir araçtır.
+
+
 
 ---
 
-## Features / *Özellikler*
+Features / Özellikler
+Fast Port Scanning: Quickly scans ports 1-1024 on the specified IP address.
+Hızlı Port Tarama: Belirtilen IP adresindeki 1-1024 arası portları hızlıca tarar.
 
-- **Feature 1:** Description of the feature.  
-  *Özellik 1: Özelliğin açıklaması.*
-- **Feature 2:** Another cool thing it does.  
-  *Özellik 2: Yaptığı başka bir harika şey.*
-- **Feature 3:** One more for good measure.  
-  *Özellik 3: Ve bir tane daha.*
-- Add more as they develop.  
-  *Geliştikçe daha fazla ekleyin.*
+Multithreading Support: Uses ThreadPoolExecutor to perform parallel and faster scanning.
+Çoklu İş Parçacığı Desteği: ThreadPoolExecutor kullanarak tarama işlemini paralel ve hızlı yapar.
+
+User-Friendly Interface: Easy to run by entering target IP in the terminal.
+Kullanıcı Dostu Arayüz: Terminal üzerinden kolayca hedef IP girilip çalıştırılabilir.
+
+Easily Extensible: Simple and clear code structure allows easy addition of new features.
+Kolay Geliştirilebilir: Kod basit ve anlaşılır olduğu için kolayca yeni özellikler eklenebilir.
+
+Cross-Platform: Written in Python, it can run on different operating systems.
+Platform Bağımsız: Python ile yazıldığı için farklı işletim sistemlerinde çalışabilir.
 
 ---
 
 ## Team / *Ekip*
 
-- **219*****031** - Name Surname: *Role or Contribution*  
-  *Ad Soyad: Rolü veya Katkısı*
-- **Another Member** - Name Surname: *Role or Contribution*  
-  *Ad Soyad: Rolü veya Katkısı*
-- Add more members as needed.  
-  *Gerektiğinde daha fazla üye ekleyin.*
+- 2320191048 - Emirhan Acar: project owner and management
+  2320191048 - Emirhan Acar: proje sahibi ve yönetimi
+
 
 ---
 
@@ -46,13 +51,12 @@ See our plans in [ROADMAP.md](ROADMAP.md).
 
 ---
 
-## Research / *Araştırmalar*
+Topic / Başlık	Link	Description / Açıklama
+Port Scanner Project	researchs/port-scanner.md	A Python-based tool to scan open ports on target IPs quickly. / Hedef IP’deki açık portları hızlıca tarayan Python tabanlı araç.
+Multithreaded Network Scan	researchs/multithreaded-scan.md	Explains the use of threading to speed up network scanning. / Ağ taramalarını hızlandırmak için iş parçacığı kullanımının açıklaması.
+Network Security Basics	researchs/network-security-basics.md	Overview of fundamental concepts in network security. / Ağ güvenliği temel kavramlarının genel özeti.
 
-| Topic / *Başlık*        | Link                                    | Description / *Açıklama*                        |
-|-------------------------|-----------------------------------------|------------------------------------------------|
-| Aircrack Deep Dive      | [researchs/aircrack.md](researchs/aircrack.md) | In-depth analysis of Aircrack-ng suite. / *Aircrack-ng paketinin derinlemesine analizi.* |
-| Example Research Topic  | [researchs/your-research-file.md](researchs/your-research-file.md) | Brief overview of this research. / *Bu araştırmanın kısa bir özeti.* |
-| Add More Research       | *Link to your other research files*     | *Description of the research*                  |
+
 
 ---
 
